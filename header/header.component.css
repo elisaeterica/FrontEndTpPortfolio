@@ -1,0 +1,14 @@
+div{
+    background-color: rgb(0, 0, 0);
+   }
+
+app-social{
+float: right;
+margin-top: 20px;
+}
+
+app-LogoAP{
+    float: left;
+    margin-top: 20px;
+    size: 20px;
+}

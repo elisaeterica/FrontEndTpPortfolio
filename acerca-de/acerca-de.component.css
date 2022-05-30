@@ -1,0 +1,57 @@
+.container{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*estilo de la foto de perfil*/
+
+@media (max-widht: 575px){
+    #fotoperfil{
+            position: absolute;
+            width: 30%;
+            border-radius: 50%;
+            left: 40%;
+            top: 350px;
+
+    }
+}
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    }
+
+#fotoperfil{
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 350px;
+    width: 30%;
+}
+#cert{
+    text-align: center;
+    margin-left: 10px;
+    padding: 20px;
+    position: relative;
+    top: 60px;
+
+}
+#acerca{
+    position: relative;
+    top: 55px;
+    padding: 20px;
+}
+p{
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
